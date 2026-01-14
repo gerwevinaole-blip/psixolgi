@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Психолог — индивидуальные консультации</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Индивидуальные психологические консультации. Безопасно, бережно, профессионально.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <title>Психолог — индивидуальные консультации онлайн</title>
+<meta name="description" content="Бережная психологическая помощь. Индивидуальные консультации онлайн и офлайн. Конфиденциально.">
+
+<meta property="og:title" content="Психолог — индивидуальные консультации">
+<meta property="og:description" content="Поддержка, доверие и безопасное пространство для вас">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://site.ru">
+<meta property="og:image" content="https://site.ru/og.jpg">
+
+    <link rel="stylesheet" href="./src/css/style.css">
+     <script type="application/ld+json">
+  
+</script>
+
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="logo">Психолог</div>
+            <a href="#contact" class="btn">Записаться</a>
+        </div>
+    </header>
+    <section class="container">
+    <h1>Часто задаваемые вопросы</h1>
+
+    <h3>Сколько длится консультация?</h3>
+    <p>Обычно 50–60 минут.</p>
+
+    <h3>Онлайн — это эффективно?</h3>
+    <p>Да, формат онлайн ничем не уступает очной работе.</p>
+
+    <h3>Нужно ли готовиться?</h3>
+    <p>Нет, достаточно быть собой.</p>
+
+    <a href="index.html" class="btn">На главную</a>
+</section>
+<section class="container">
+    <h1>Статьи</h1>
+
+    <article>
+        <h3>Как понять, что мне нужна поддержка</h3>
+        <p>Иногда тело и эмоции говорят за нас...</p>
+    </article>
+
+    <article>
+        <h3>Тревожность: что с ней делать</h3>
+        <p>Тревога — это сигнал, а не враг...</p>
+    </article>
+</section>
+
+
+    <section class="hero">
+        <div class="container">
+            <h1>Если сейчас тяжело — вы не одни</h1>
+            <p>Бережная психологическая поддержка в безопасном пространстве</p>
+            <a href="#contact" class="btn btn-main">Записаться на консультацию</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="container">
+            <h2>Обо мне и моём подходе</h2>
+            <p>
+                Я практикующий психолог. В работе для меня важны принятие, доверие и уважение к вашему темпу.
+                Каждая встреча — это пространство, где можно быть собой.
+            </p>
+        </div>
+    </section>
+
+    <section class="issues">
+        <div class="container">
+            <h2>С какими запросами я работаю</h2>
+            <ul class="cards">
+                <li>Тревожность и страхи</li>
+                <li>Потеря смысла</li>
+                <li>Неуверенность в себе</li>
+                <li>Сложности в отношениях</li>
+                <li>Эмоциональное выгорание</li>
+                <li>Внутренние конфликты</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="process">
+        <div class="container">
+            <h2>Как проходит работа</h2>
+            <ul>
+                <li>Индивидуальные сессии</li>
+                <li>Онлайн или офлайн формат</li>
+                <li>Полная конфиденциальность</li>
+                <li>Комфортный для вас темп</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="trust">
+        <div class="container">
+            <h2>Почему мне можно доверять</h2>
+            <p>
+                Я не оцениваю и не навязываю решений.
+                Моя задача — помочь вам услышать себя.
+            </p>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Готовы сделать первый шаг?</h2>
+            <a href="#" class="btn">Написать в Telegram</a>
+            <a href="#" class="btn">Написать в WhatsApp</a>
+        </div>
+    </section>
+    <section class="contact fade-section" id="contact">
+    <div class="container">
+        <h2>Записаться на консультацию</h2>
+
+        <form id="tg-form">
+            <input type="text" name="name" placeholder="Ваше имя" required>
+            <input type="text" name="contact" placeholder="Telegram или телефон" required>
+            <textarea name="message" placeholder="Кратко опишите запрос"></textarea>
+            <button type="submit" class="btn">Отправить</button>
+        </form>
+    </div>
+</section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>© Психолог, 2025</p>
+        </div>
+    </footer>
+    <section class="about fade-section">
+<section class="issues fade-section">
+<section class="process fade-section">
+<section class="trust fade-section">
+<section class="contact fade-section">
+
+    <script>
+document.addEventListener("DOMContentLoaded", () => {
+    const sections = document.querySelectorAll('.fade-section');
+
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+            }
+        });
+    }, {
+        threshold: 0.15
+    });
+
+    sections.forEach(section => observer.observe(section));
+});
+</script>
+<script>
+const TOKEN = "PASTE_BOT_TOKEN";
+const CHAT_ID = "PASTE_CHAT_ID";
+
+document.getElementById('tg-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    const data = new FormData(this);
+    const text =
+        `🧠 Новая заявка\n\n` +
+        `Имя: ${data.get('name')}\n` +
+        `Контакт: ${data.get('contact')}\n` +
+        `Запрос: ${data.get('message')}`;
+
+    fetch(`t.me/psixologhhgg_bot $8381032801:AAGBTQ1cznDJUzAggcDpcTGgI8ez5WBxuHE/sendMessage`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+            chat_id: CHAT_ID,
+            text: text
+        })
+    }).then(() => {
+        alert("Заявка отправлена 🤍");
+        this.reset();
+    });
+});
+</script>
+
+
+
+</body>
+
+</html>
